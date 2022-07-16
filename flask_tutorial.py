@@ -15,6 +15,10 @@ def hello_word():
 def contato():
     return render_template("contatos.html")
 
+@app.route("/Rafael")
+def rafael():
+    return render_template("rafael.html")   
+
 @app.route("/usuarios/<name>")
 def usuario(name):
     return render_template("usuarios.html",name=name)
@@ -24,3 +28,4 @@ def usuario(name):
 #colocar o site no ar
 if __name__ == "__main__":
     app.run(debug=True)
+
