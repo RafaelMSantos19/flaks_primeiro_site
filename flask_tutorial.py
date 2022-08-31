@@ -23,6 +23,10 @@ def rafael():
 def usuario(name):
     return render_template("usuarios.html",name=name)
 
+@app.route("/test_do_heroku")
+def test_do_heroku():
+    return render_template("test_do_heroku.hmtl")
+    
 
 
 #colocar o site no ar
