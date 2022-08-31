@@ -25,7 +25,7 @@ def usuario(name):
 
 @app.route("/test_do_heroku")
 def test_do_heroku():
-    return render_template("test_do_heroku.hmtl")
+    return render_template("test_do_heroku.html")
     
 
 
